@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCIAbacusView_Example' do
+  pod 'CCIAbacusView', :path => '../'
+
+  target 'CCIAbacusView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
