@@ -20,13 +20,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ### Required mehods
 
 ```ruby
-    - (int)numberOfColumnsForAbacusView:(CCIAbacusView *)view ;
-    - (int)abacusView:(CCIAbacusView *)view numberOfBeadsPerSection: (int)sectionNumber;
-    - (int)abacusView:(CCIAbacusView *)view valueOfBeadsPerSection: (int)sectionNumber;
-    - (BOOL)showSeparatorForAbacusView:(CCIAbacusView *)view;
-    - (UIColor *)separatorColorForAbacusView:(CCIAbacusView *)view;
-    - (CCIBead *)abacusView:(CCIAbacusView *)view setBeadForColumn: (int) column withIndex: (int)index;
-    - (void)abacusView:(CCIAbacusView *)view didChangeValue: (int)newValue;
+- (int)numberOfColumnsForAbacusView:(CCIAbacusView *)view ;
+- (int)abacusView:(CCIAbacusView *)view numberOfBeadsPerSection: (int)sectionNumber;
+- (int)abacusView:(CCIAbacusView *)view valueOfBeadsPerSection: (int)sectionNumber;
+- (BOOL)showSeparatorForAbacusView:(CCIAbacusView *)view;
+- (UIColor *)separatorColorForAbacusView:(CCIAbacusView *)view;
+- (CCIBead *)abacusView:(CCIAbacusView *)view setBeadForColumn: (int) column withIndex: (int)index;
+- (void)abacusView:(CCIAbacusView *)view didChangeValue: (int)newValue;
 ```
 ## Installation
 
