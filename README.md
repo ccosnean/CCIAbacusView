@@ -11,6 +11,23 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+### Header files
+    <CCIBead.h>
+    <CCIAbacusDelegate.h>
+    <CCIAbacusDataSource.h>
+    <CCIAbacusView.h>
+
+### Required mehods
+
+```ruby
+    - (int)numberOfColumnsForAbacusView:(CCIAbacusView *)view ;
+    - (int)abacusView:(CCIAbacusView *)view numberOfBeadsPerSection: (int)sectionNumber;
+    - (int)abacusView:(CCIAbacusView *)view valueOfBeadsPerSection: (int)sectionNumber;
+    - (BOOL)showSeparatorForAbacusView:(CCIAbacusView *)view;
+    - (UIColor *)separatorColorForAbacusView:(CCIAbacusView *)view;
+    - (CCIBead *)abacusView:(CCIAbacusView *)view setBeadForColumn: (int) column withIndex: (int)index;
+    - (void)abacusView:(CCIAbacusView *)view didChangeValue: (int)newValue;
+```
 ## Installation
 
 CCIAbacusView is available through [CocoaPods](http://cocoapods.org). To install
@@ -18,6 +35,11 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'CCIAbacusView'
+```
+or
+
+```ruby
+pod 'CCIAbacusView', :git => 'https://github.com/ccosnean/CCIAbacusView.git'
 ```
 
 ## Author
