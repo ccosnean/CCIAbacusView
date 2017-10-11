@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/CCIAbacusView.svg?style=flat)](http://cocoapods.org/pods/CCIAbacusView)
 
 ## Example
-
+![Alt text](https://appetize.io/embed/w085x91z9bdq6h1khk6y8c59uc?device=iphone6s&scale=75&orientation=portrait&osVersion=11.0)
 ![Alt text](https://github.com/ccosnean/CCIAbacusView/blob/master/CCIAbacusView/Assets/CCIAbacusViewDemo.gif)
 
 The total value is displayed in delegate methods. See below.
