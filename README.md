@@ -7,7 +7,8 @@
 
 ## Example
 
-![Alt text](https://github.com/ccosnean/CCIAbacusView/CCIAbacusView/Assets/CCIAbacusViewDemo.gif 'Abacus Demo')
+![Alt text](https://github.com/ccosnean/CCIAbacusView/blob/master/CCIAbacusView/Assets/CCIAbacusViewDemo.gif)
+
 The total value is displayed in delegate methods. See below.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
