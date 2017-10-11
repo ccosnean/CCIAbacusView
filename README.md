@@ -10,9 +10,8 @@
 ![Alt text](https://github.com/ccosnean/CCIAbacusView/blob/master/CCIAbacusView/Assets/CCIAbacusViewDemo.gif)
 The total value is displayed in delegate methods. See below.
 
-<iframe href="https://appetize.io/embed/w085x91z9bdq6h1khk6y8c59uc?device=iphone6s&scale=75&orientation=portrait&osVersion=11.0">Appetize.io Demo</iframe>
+<a href="https://appetize.io/embed/w085x91z9bdq6h1khk6y8c59uc?device=iphone6s&scale=75&orientation=portrait&osVersion=11.0">Appetize.io Demo</a>
 <br>
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
@@ -46,6 +45,8 @@ or
 ```ruby
 pod 'CCIAbacusView', :git => 'https://github.com/ccosnean/CCIAbacusView.git'
 ```
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Author
 
