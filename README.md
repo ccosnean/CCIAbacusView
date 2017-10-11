@@ -7,6 +7,9 @@
 
 ## Example
 
+![alt text] (https://ibb.co/eRyeVb)
+The total value is displayed in delegate methods. See below.
+
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
