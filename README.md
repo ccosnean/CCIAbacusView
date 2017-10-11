@@ -7,7 +7,7 @@
 
 ## Example
 
-![Alt text](https://github.com/ccosnean/CCIAbacusView/blob/master/CCIAbacusView/Assets/CCIAbacusViewDemo.gif)
+![Alt text](https://ibb.co/eRyeVb)
 
 The total value is displayed in delegate methods. See below.
 
