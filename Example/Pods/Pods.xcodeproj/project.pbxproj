@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65B6AE8A24A11F63B89AFD7B4594559F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		668AF75AB6E2E263570851CDA1922E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		83A055A77668696C0F525326A777179F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0036C8F48E59143194EC8D219F22CA9C /* CCIAbacusView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 359BBDC4CB94E0D689E6778FE3236A98 /* CCIAbacusView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06C6E75722E35147782948D8D4965B86 /* CCIBead.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D775726B6CF1E765DF8B0B0037DE23F /* CCIBead.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		070D358298DC59B222ECFC92DDBD3C44 /* CCIAbacusView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD081FE0BAA18B6A4400C3FD63DC59C /* CCIAbacusView.m */; };
+		287A210147A9F1BC9C9DA4A0A2FB47CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		3FC0ED8A2ED41AA74707157CBF8C8C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		48E0B666F577392D179D70DB98D3F3B4 /* CCIBeadColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = 9369081498363D0ACB489533891F0AC7 /* CCIBeadColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668AF75AB6E2E263570851CDA1922E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6AE4BC91B9F743417F829B766A75A704 /* CCIBead.m in Sources */ = {isa = PBXBuildFile; fileRef = 9305484338ADC7F64BEFFFFD94E6C610 /* CCIBead.m */; };
+		83A055A77668696C0F525326A777179F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		8D258F0D54092BDAFF832722F2AE0D53 /* Pods-CCIAbacusView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5631D1B0B1EC3EE370066199CC1F9D /* Pods-CCIAbacusView_Tests-dummy.m */; };
+		9032275A34C95F3A572539278F036357 /* CCIBeadColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5D6B5AABE5F554B8875892F82B7C97 /* CCIBeadColumn.m */; };
 		96589EBFAB78C6C802EAD96CE9A7AC81 /* Pods-CCIAbacusView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AB546340CE36B076FBB9C89FF2A6A4 /* Pods-CCIAbacusView_Example-dummy.m */; };
-		B569D8046C37D5CC979B0F72E0452685 /* CCIAbacusView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AA675B03168E6F1A8FA9D10FAE658E /* CCIAbacusView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A33F120FA3FD7777143223FACBE368A5 /* CCIAbacusDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B11AB86C6A8ED0F1FBC62474EF565816 /* CCIAbacusDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4A6746AC9912E7053921849B8D4308 /* CCIAbacusDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 88094C4356C462340D9E77884FD83AC6 /* CCIAbacusDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29054F9448D24B31EEC3B62EF24335D /* CCIAbacusView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF30662FE482C7A4F0338CA4582D7E7E /* CCIAbacusView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0E61F075257F5561C55218013D6FB6 /* CCIStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40279AAD24C2774A68A16203053DD737 /* CCIStackView.m */; };
+		E0629CF8ADE991F410ED32A87FEFFE40 /* CCIAbacusView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EED3FA236397A0FD135ADA9D37D5758 /* CCIAbacusView-dummy.m */; };
+		E0C1C6DBCA67BB6B89FFE17EF2224E1B /* CCIStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE8C6727415B1E6B2264D50B920B3DB /* CCIStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EACA2A3758418BE19452D872D5A99658 /* Pods-CCIAbacusView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A0BCBAC32E7831DD6B9F79FA04334F /* Pods-CCIAbacusView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4A738BAAC4AB983EEAB4919D3B894D3 /* Pods-CCIAbacusView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E31B9982FF485F76A5B35A01EB6928 /* Pods-CCIAbacusView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8EB9B8D420EE9BA637ADB0B9D2A9CCE /* CCIAbacusView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F833BCEAD31A44CACD9A1639A42C8A1 /* CCIAbacusView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,62 +34,63 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AED200997742372C75BF649C77FA47CE;
+			remoteGlobalIDString = BE8D25B84E5649BAE873FB293CB754E7;
 			remoteInfo = CCIAbacusView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F833BCEAD31A44CACD9A1639A42C8A1 /* CCIAbacusView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCIAbacusView-dummy.m"; sourceTree = "<group>"; };
-		171473F6E02E17891D5591EFEE22B23F /* CCIAbacusView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCIAbacusView.xcconfig; sourceTree = "<group>"; };
 		1E5463A3B2BE89AC51AE61F1DE9F03F4 /* Pods-CCIAbacusView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCIAbacusView_Tests-resources.sh"; sourceTree = "<group>"; };
 		1F41ED3C024F8FDBF57EB8FA29FECC4B /* Pods-CCIAbacusView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCIAbacusView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		24AA675B03168E6F1A8FA9D10FAE658E /* CCIAbacusView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCIAbacusView-umbrella.h"; sourceTree = "<group>"; };
 		28A0BCBAC32E7831DD6B9F79FA04334F /* Pods-CCIAbacusView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCIAbacusView_Example-umbrella.h"; sourceTree = "<group>"; };
 		2F0309B88D0DD0CBECD567CFD69E2014 /* Pods_CCIAbacusView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCIAbacusView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E31B9982FF485F76A5B35A01EB6928 /* Pods-CCIAbacusView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCIAbacusView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		359BBDC4CB94E0D689E6778FE3236A98 /* CCIAbacusView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCIAbacusView-umbrella.h"; sourceTree = "<group>"; };
+		40279AAD24C2774A68A16203053DD737 /* CCIStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIStackView.m; path = CCIAbacusView/Classes/CCIStackView.m; sourceTree = "<group>"; };
 		48F284D1C8129AB942B60E64E7367B6E /* Pods-CCIAbacusView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCIAbacusView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		53229AD134C2E6CA23B695FD5ED26992 /* CCIAbacusView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCIAbacusView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5D6B5AABE5F554B8875892F82B7C97 /* CCIBeadColumn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIBeadColumn.m; path = CCIAbacusView/Classes/CCIBeadColumn.m; sourceTree = "<group>"; };
 		61C5CDAAC53898DE9E89D86C4318962B /* Pods-CCIAbacusView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCIAbacusView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69AB546340CE36B076FBB9C89FF2A6A4 /* Pods-CCIAbacusView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCIAbacusView_Example-dummy.m"; sourceTree = "<group>"; };
+		6D775726B6CF1E765DF8B0B0037DE23F /* CCIBead.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIBead.h; path = CCIAbacusView/Classes/CCIBead.h; sourceTree = "<group>"; };
+		7BE8C6727415B1E6B2264D50B920B3DB /* CCIStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIStackView.h; path = CCIAbacusView/Classes/CCIStackView.h; sourceTree = "<group>"; };
 		7D92003E7E0ED26435EB584727178C8F /* Pods-CCIAbacusView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCIAbacusView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7EED3FA236397A0FD135ADA9D37D5758 /* CCIAbacusView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCIAbacusView-dummy.m"; sourceTree = "<group>"; };
+		88094C4356C462340D9E77884FD83AC6 /* CCIAbacusDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIAbacusDataSource.h; path = CCIAbacusView/Classes/CCIAbacusDataSource.h; sourceTree = "<group>"; };
 		88B58553F80716C97879A1D2CCD24087 /* Pods-CCIAbacusView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CCIAbacusView_Example.modulemap"; sourceTree = "<group>"; };
+		8B6DB870D29B22F0040FE3CFFBF7D190 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90F1BAD9044226D3F74E5B8975E807B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9305484338ADC7F64BEFFFFD94E6C610 /* CCIBead.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIBead.m; path = CCIAbacusView/Classes/CCIBead.m; sourceTree = "<group>"; };
+		9369081498363D0ACB489533891F0AC7 /* CCIBeadColumn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIBeadColumn.h; path = CCIAbacusView/Classes/CCIBeadColumn.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A724666B179EADA4AE1C66F396AA0C /* Pods-CCIAbacusView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CCIAbacusView_Tests.modulemap"; sourceTree = "<group>"; };
+		97AF7E0A74A61272A673A888AF56CBE6 /* CCIAbacusView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CCIAbacusView.modulemap; sourceTree = "<group>"; };
 		97B6B5F8C64D688DE148FF25AC3DBDBE /* Pods-CCIAbacusView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCIAbacusView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9DC1549663B38B4C46D824FAD8DFB44E /* Pods_CCIAbacusView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCIAbacusView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F451B8935272C6A27A4AB01ECFD4E3 /* Pods-CCIAbacusView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCIAbacusView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A51BE7B9482E0C44CD03F058F5A4A11A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7131B51B4A2FC4F5A4CA8E6B7155206 /* Pods-CCIAbacusView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCIAbacusView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AAD081FE0BAA18B6A4400C3FD63DC59C /* CCIAbacusView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCIAbacusView.m; path = CCIAbacusView/Classes/CCIAbacusView.m; sourceTree = "<group>"; };
+		B11AB86C6A8ED0F1FBC62474EF565816 /* CCIAbacusDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIAbacusDelegate.h; path = CCIAbacusView/Classes/CCIAbacusDelegate.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B93BB7F38AB414FBCD6C714ECE84D67B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD059DC80462BCD2320D3278E342BEE9 /* Pods-CCIAbacusView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCIAbacusView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C900AB28326EE9840597FB9094A97195 /* Pods-CCIAbacusView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCIAbacusView_Example-resources.sh"; sourceTree = "<group>"; };
 		CC5631D1B0B1EC3EE370066199CC1F9D /* Pods-CCIAbacusView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCIAbacusView_Tests-dummy.m"; sourceTree = "<group>"; };
-		D725CC521F8D2424008D0C20 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		D725CC531F8D2424008D0C20 /* CCIAbacusDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIAbacusDataSource.h; sourceTree = "<group>"; };
-		D725CC541F8D2424008D0C20 /* CCIAbacusDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIAbacusDelegate.h; sourceTree = "<group>"; };
-		D725CC551F8D2424008D0C20 /* CCIAbacusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIAbacusView.h; sourceTree = "<group>"; };
-		D725CC561F8D2424008D0C20 /* CCIAbacusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCIAbacusView.m; sourceTree = "<group>"; };
-		D725CC571F8D2424008D0C20 /* CCIBead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIBead.h; sourceTree = "<group>"; };
-		D725CC581F8D2424008D0C20 /* CCIBead.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCIBead.m; sourceTree = "<group>"; };
-		D725CC591F8D2424008D0C20 /* CCIBeadColumn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIBeadColumn.h; sourceTree = "<group>"; };
-		D725CC5A1F8D2424008D0C20 /* CCIBeadColumn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCIBeadColumn.m; sourceTree = "<group>"; };
-		D725CC5B1F8D2424008D0C20 /* CCIStackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCIStackView.h; sourceTree = "<group>"; };
-		D725CC5C1F8D2424008D0C20 /* CCIStackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCIStackView.m; sourceTree = "<group>"; };
-		DB45DF2FD0AFC67BC03596E667D8E70A /* CCIAbacusView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CCIAbacusView.modulemap; sourceTree = "<group>"; };
-		E2D5C725AF694BF2F4DA9BDB9F742B29 /* CCIAbacusView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCIAbacusView-prefix.pch"; sourceTree = "<group>"; };
+		D5C48F2B138663B8615E68C178BB1C98 /* CCIAbacusView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCIAbacusView.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E4603E45AF8B7DF9FA03686B42D72B07 /* Pods-CCIAbacusView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CCIAbacusView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E6BE2B491170300C98C569896ED316D5 /* Pods-CCIAbacusView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CCIAbacusView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF30662FE482C7A4F0338CA4582D7E7E /* CCIAbacusView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCIAbacusView.h; path = CCIAbacusView/Classes/CCIAbacusView.h; sourceTree = "<group>"; };
+		FC98C99D37C82B2BB50EF3BE6A60797D /* CCIAbacusView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCIAbacusView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9F5EF1A449D186F914C0F9BB9512E75D /* Frameworks */ = {
+		2A1682BC217EF882E77BF471D948BE8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B6AE8A24A11F63B89AFD7B4594559F /* Foundation.framework in Frameworks */,
+				3FC0ED8A2ED41AA74707157CBF8C8C8C /* Foundation.framework in Frameworks */,
+				287A210147A9F1BC9C9DA4A0A2FB47CE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05BF0ACE61BB18B3B9DF804B411B3E1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A868481C5DB198736B2E85E1CD88A289 /* CCIAbacusView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3141187B415A77396B3AB1B9A07A7978 /* Pods-CCIAbacusView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,20 +149,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7728F91B17A7B03F0379BAD6C81EF945 /* Development Pods */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C9825051F399A95730320C17FC571E80 /* CCIAbacusView */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7728F91B17A7B03F0379BAD6C81EF945 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				05BF0ACE61BB18B3B9DF804B411B3E1F /* Pods */,
 				316718B9D532CC1DF5CD65B3185BC4A5 /* Products */,
 				A279ECC90C80B736D3832F7AC68380CE /* Targets Support Files */,
 			);
@@ -157,63 +186,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AEF8430D48197A126DDFC5A1429A9FCF /* Support Files */ = {
+		A868481C5DB198736B2E85E1CD88A289 /* CCIAbacusView */ = {
 			isa = PBXGroup;
 			children = (
-				DB45DF2FD0AFC67BC03596E667D8E70A /* CCIAbacusView.modulemap */,
-				171473F6E02E17891D5591EFEE22B23F /* CCIAbacusView.xcconfig */,
-				0F833BCEAD31A44CACD9A1639A42C8A1 /* CCIAbacusView-dummy.m */,
-				E2D5C725AF694BF2F4DA9BDB9F742B29 /* CCIAbacusView-prefix.pch */,
-				24AA675B03168E6F1A8FA9D10FAE658E /* CCIAbacusView-umbrella.h */,
-				A51BE7B9482E0C44CD03F058F5A4A11A /* Info.plist */,
+				88094C4356C462340D9E77884FD83AC6 /* CCIAbacusDataSource.h */,
+				B11AB86C6A8ED0F1FBC62474EF565816 /* CCIAbacusDelegate.h */,
+				EF30662FE482C7A4F0338CA4582D7E7E /* CCIAbacusView.h */,
+				AAD081FE0BAA18B6A4400C3FD63DC59C /* CCIAbacusView.m */,
+				6D775726B6CF1E765DF8B0B0037DE23F /* CCIBead.h */,
+				9305484338ADC7F64BEFFFFD94E6C610 /* CCIBead.m */,
+				9369081498363D0ACB489533891F0AC7 /* CCIBeadColumn.h */,
+				5B5D6B5AABE5F554B8875892F82B7C97 /* CCIBeadColumn.m */,
+				7BE8C6727415B1E6B2264D50B920B3DB /* CCIStackView.h */,
+				40279AAD24C2774A68A16203053DD737 /* CCIStackView.m */,
+				CB23EC06FC0F4DA90E023463309FC2CB /* Support Files */,
+			);
+			path = CCIAbacusView;
+			sourceTree = "<group>";
+		};
+		CB23EC06FC0F4DA90E023463309FC2CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97AF7E0A74A61272A673A888AF56CBE6 /* CCIAbacusView.modulemap */,
+				D5C48F2B138663B8615E68C178BB1C98 /* CCIAbacusView.xcconfig */,
+				7EED3FA236397A0FD135ADA9D37D5758 /* CCIAbacusView-dummy.m */,
+				FC98C99D37C82B2BB50EF3BE6A60797D /* CCIAbacusView-prefix.pch */,
+				359BBDC4CB94E0D689E6778FE3236A98 /* CCIAbacusView-umbrella.h */,
+				8B6DB870D29B22F0040FE3CFFBF7D190 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CCIAbacusView";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C9825051F399A95730320C17FC571E80 /* CCIAbacusView */ = {
-			isa = PBXGroup;
-			children = (
-				D725CC511F8D2424008D0C20 /* Classes */,
-				AEF8430D48197A126DDFC5A1429A9FCF /* Support Files */,
-			);
-			name = CCIAbacusView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D725CC511F8D2424008D0C20 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D725CC521F8D2424008D0C20 /* .gitkeep */,
-				D725CC531F8D2424008D0C20 /* CCIAbacusDataSource.h */,
-				D725CC541F8D2424008D0C20 /* CCIAbacusDelegate.h */,
-				D725CC551F8D2424008D0C20 /* CCIAbacusView.h */,
-				D725CC561F8D2424008D0C20 /* CCIAbacusView.m */,
-				D725CC571F8D2424008D0C20 /* CCIBead.h */,
-				D725CC581F8D2424008D0C20 /* CCIBead.m */,
-				D725CC591F8D2424008D0C20 /* CCIBeadColumn.h */,
-				D725CC5A1F8D2424008D0C20 /* CCIBeadColumn.m */,
-				D725CC5B1F8D2424008D0C20 /* CCIStackView.h */,
-				D725CC5C1F8D2424008D0C20 /* CCIStackView.m */,
-			);
-			name = Classes;
-			path = CCIAbacusView/Classes;
+			path = "../Target Support Files/CCIAbacusView";
 			sourceTree = "<group>";
 		};
 		E110876264A3C6E51AD2AA313D07A8B7 /* Pods-CCIAbacusView_Tests */ = {
@@ -237,14 +239,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03DEBFF31B13A044CDF7057CA0A72530 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B569D8046C37D5CC979B0F72E0452685 /* CCIAbacusView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B30F35DCF324023ACCD3FDE25E643EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -261,16 +255,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4A3644EDEFDA00AD506C2CBC48CD077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4A6746AC9912E7053921849B8D4308 /* CCIAbacusDataSource.h in Headers */,
+				A33F120FA3FD7777143223FACBE368A5 /* CCIAbacusDelegate.h in Headers */,
+				0036C8F48E59143194EC8D219F22CA9C /* CCIAbacusView-umbrella.h in Headers */,
+				D29054F9448D24B31EEC3B62EF24335D /* CCIAbacusView.h in Headers */,
+				06C6E75722E35147782948D8D4965B86 /* CCIBead.h in Headers */,
+				48E0B666F577392D179D70DB98D3F3B4 /* CCIBeadColumn.h in Headers */,
+				E0C1C6DBCA67BB6B89FFE17EF2224E1B /* CCIStackView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AED200997742372C75BF649C77FA47CE /* CCIAbacusView */ = {
+		BE8D25B84E5649BAE873FB293CB754E7 /* CCIAbacusView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29AFC55A20E08CDEFCF58BF324AAFE90 /* Build configuration list for PBXNativeTarget "CCIAbacusView" */;
+			buildConfigurationList = C046645335028942517FE7161CD4CA81 /* Build configuration list for PBXNativeTarget "CCIAbacusView" */;
 			buildPhases = (
-				2F3DA9A838C38FFB2EB580AF45601E03 /* Sources */,
-				9F5EF1A449D186F914C0F9BB9512E75D /* Frameworks */,
-				03DEBFF31B13A044CDF7057CA0A72530 /* Headers */,
+				5451493057BC86EF922A20D5933281C7 /* Sources */,
+				2A1682BC217EF882E77BF471D948BE8F /* Frameworks */,
+				D4A3644EDEFDA00AD506C2CBC48CD077 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -323,7 +331,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -337,7 +345,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AED200997742372C75BF649C77FA47CE /* CCIAbacusView */,
+				BE8D25B84E5649BAE873FB293CB754E7 /* CCIAbacusView */,
 				ED11CC317A2ECF37878BD2A831EB922B /* Pods-CCIAbacusView_Example */,
 				F40D8BD90EADCF26C787074999478A8B /* Pods-CCIAbacusView_Tests */,
 			);
@@ -353,11 +361,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F3DA9A838C38FFB2EB580AF45601E03 /* Sources */ = {
+		5451493057BC86EF922A20D5933281C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EB9B8D420EE9BA637ADB0B9D2A9CCE /* CCIAbacusView-dummy.m in Sources */,
+				E0629CF8ADE991F410ED32A87FEFFE40 /* CCIAbacusView-dummy.m in Sources */,
+				070D358298DC59B222ECFC92DDBD3C44 /* CCIAbacusView.m in Sources */,
+				6AE4BC91B9F743417F829B766A75A704 /* CCIBead.m in Sources */,
+				9032275A34C95F3A572539278F036357 /* CCIBeadColumn.m in Sources */,
+				DA0E61F075257F5561C55218013D6FB6 /* CCIStackView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +387,7 @@
 		C65A0B28A19109B067649B980D9051A6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CCIAbacusView;
-			target = AED200997742372C75BF649C77FA47CE /* CCIAbacusView */;
+			target = BE8D25B84E5649BAE873FB293CB754E7 /* CCIAbacusView */;
 			targetProxy = F37C030A3161224CBB93D267371F399A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -391,7 +403,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -399,14 +413,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -422,6 +442,39 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E24A6D9408610236332EF6A73624D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C48F2B138663B8615E68C178BB1C98 /* CCIAbacusView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CCIAbacusView/CCIAbacusView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCIAbacusView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CCIAbacusView/CCIAbacusView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CCIAbacusView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -491,39 +544,6 @@
 				PRODUCT_NAME = Pods_CCIAbacusView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7DB8D5DF3960FADE1C772A74642E5250 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 171473F6E02E17891D5591EFEE22B23F /* CCIAbacusView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CCIAbacusView/CCIAbacusView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CCIAbacusView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CCIAbacusView/CCIAbacusView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CCIAbacusView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -602,9 +622,66 @@
 			};
 			name = Release;
 		};
-		EAB1E95BF7B9D57E010F4D2D3098EA84 /* Debug */ = {
+		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 171473F6E02E17891D5591EFEE22B23F /* CCIAbacusView.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF6BE22FEFA648EFEA42EFFC6C3C8DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C48F2B138663B8615E68C178BB1C98 /* CCIAbacusView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -635,55 +712,6 @@
 			};
 			name = Debug;
 		};
-		EED546DBB23FC32035C9BDC4E22B30BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,15 +720,6 @@
 			buildConfigurations = (
 				5498F750711FDE5875F254557EFB8BB0 /* Debug */,
 				6348AEDB29CD8E504A0C838C22465D17 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		29AFC55A20E08CDEFCF58BF324AAFE90 /* Build configuration list for PBXNativeTarget "CCIAbacusView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EAB1E95BF7B9D57E010F4D2D3098EA84 /* Debug */,
-				7DB8D5DF3960FADE1C772A74642E5250 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -719,6 +738,15 @@
 			buildConfigurations = (
 				9CC81A351249F4D468E6C65802B5B7D1 /* Debug */,
 				C3C2FA98C901D7E5B3D2091010F926E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C046645335028942517FE7161CD4CA81 /* Build configuration list for PBXNativeTarget "CCIAbacusView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF6BE22FEFA648EFEA42EFFC6C3C8DCB /* Debug */,
+				1E24A6D9408610236332EF6A73624D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

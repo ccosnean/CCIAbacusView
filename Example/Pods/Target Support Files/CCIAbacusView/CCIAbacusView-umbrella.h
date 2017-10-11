@@ -10,6 +10,12 @@
 #endif
 #endif
 
+#import "CCIAbacusDataSource.h"
+#import "CCIAbacusDelegate.h"
+#import "CCIAbacusView.h"
+#import "CCIBead.h"
+#import "CCIBeadColumn.h"
+#import "CCIStackView.h"
 
 FOUNDATION_EXPORT double CCIAbacusViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char CCIAbacusViewVersionString[];

@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'CCIAbacusView_Example' do
-  pod 'CCIAbacusView', :path => '../'
+  pod 'CCIAbacusView', :git => 'https://github.com/ccosnean/CCIAbacusView.git'
 
   target 'CCIAbacusView_Tests' do
     inherit! :search_paths
