@@ -35,13 +35,13 @@
 
 - (int)abacusView:(CCIAbacusView *)view numberOfBeadsPerSection:(int)sectionNumber {
     if (sectionNumber == 0) // top column
-        return 2;
+        return 1;
     else                    // bottom column
         return 5;
 }
 
 - (int)numberOfColumnsForAbacusView:(CCIAbacusView *)view {
-    return 4;
+    return 5;
 }
 
 - (int)abacusView:(CCIAbacusView *)view valueOfBeadsPerSection:(int)sectionNumber {

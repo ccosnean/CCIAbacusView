@@ -8,18 +8,21 @@
 ## Example
 
 ![Alt text](https://github.com/ccosnean/CCIAbacusView/blob/master/CCIAbacusView/Assets/CCIAbacusViewDemo.gif)
-
 The total value is displayed in delegate methods. See below.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<a href="https://appetize.io/embed/w085x91z9bdq6h1khk6y8c59uc?device=iphone6s&scale=75&orientation=portrait&osVersion=11.0" target="_blank">Appetize.io Demo</a>
+
 
 ## Requirements
 
 ### Header files
-    <CCIBead.h>
-    <CCIAbacusDelegate.h>
-    <CCIAbacusDataSource.h>
-    <CCIAbacusView.h>
+
+```ruby
+<CCIBead.h>
+<CCIAbacusDelegate.h>
+<CCIAbacusDataSource.h>
+<CCIAbacusView.h>
+```
 
 ### Required mehods
 
@@ -46,6 +49,8 @@ or
 pod 'CCIAbacusView', :git => 'https://github.com/ccosnean/CCIAbacusView.git'
 ```
 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Author
 
 ccosnean, cristian.cosneanu@endava.com
@@ -53,3 +58,4 @@ ccosnean, cristian.cosneanu@endava.com
 ## License
 
 CCIAbacusView is available under the MIT license. See the LICENSE file for more info.
+
