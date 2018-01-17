@@ -54,7 +54,7 @@ pod 'CCIAbacusView', :git => 'https://github.com/ccosnean/CCIAbacusView.git'
 
 ## Author
 
-ccosnean, cristian.cosneanu@endava.com
+ccosnean, cosneanuc@gmail.com
 
 ## License
 
